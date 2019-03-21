@@ -1,0 +1,53 @@
+.main-box{
+	margin:50px;
+	background-color: #22B573;
+	width: 1268px;
+}
+.d-block{
+	display: inline-block;
+}
+.center{
+	text-align: center;
+}
+.navigation-li{
+	margin-top: 50px;
+	color: white;
+	margin-left: 47px;
+	font-size: 44px
+}
+.airplane{
+	width: 200px;
+	vertical-align: top;
+}
+.box1{
+	margin:150px 10px 80px 71px;
+	width: 534px;
+	background-color:yellow;
+	padding: 10px;
+}
+.p1{
+	width: 364px;
+	float: left;
+	margin-bottom: 24px;
+}
+.typo1{
+	width: 150px;
+	float: right;
+}
+.box2{
+	float: right;
+	width: 523px;
+	background-color: yellow;
+}
+.typo2{
+	width: 150px;
+}
+.p-text{
+	float: right;
+	width: 356px;
+}
+.main-box::after{
+	content: "";
+	clear: both;
+	display: block;
+}
